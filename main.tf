@@ -5,7 +5,7 @@ provider "google" {
 }
 
 resource "google_compute_instance" "terrainstancesai" {
-  name = "harness-vm"
+  name = "main-vm"
   zone             = "us-central1-a"
   machine_type     = "e2-medium"
   

@@ -4,7 +4,7 @@ provider "google" {
 
 }
 
-resource "google_compute_instance" "terrainstancesai" {
+resource "google_compute_instance" "dev" {
   name = "dev-vm"
   zone             = "us-central1-a"
   machine_type     = "e2-medium"
